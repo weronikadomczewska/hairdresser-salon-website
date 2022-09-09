@@ -1,0 +1,21 @@
+body {
+    background-image: url("resources/pexels-cottonbro-3992874.jpg");
+    background-color: #E1D7D1;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+
+    font-family: "Rockwell", serif;
+    font-size: x-large;
+    color: #E1D7D1;
+    alignment: center;
+}
+
+
+.container {
+    display: flex; /* or inline-flex */
+    justify-content: space-evenly;
+}
+
