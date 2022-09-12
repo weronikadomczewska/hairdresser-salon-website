@@ -1,6 +1,6 @@
 body {
     background-image: url("resources/pexels-cottonbro-3992874.jpg");
-    /*opacity: 0.5;*/
+    opacity: 0.8;
     background-color: #E1D7D1;
     background-repeat: no-repeat;
     background-size: cover;
@@ -8,9 +8,10 @@ body {
 
 h1 {
     font-family: "Rockwell", serif;
-    font-size: 5em;
+    font-size: 6em;
     color: #E1D7D1;
     text-align: center;
+    padding: 100px 100px 100px 100px;
 }
 
 div.page_header {
