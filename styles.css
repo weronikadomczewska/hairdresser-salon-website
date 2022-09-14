@@ -1,11 +1,11 @@
 body {
     margin: 0;
+    font-family: "Rockwell", serif;
 }
 
 .header_text {
-    font-family: "Rockwell", serif;
     background-color: rgba(0,0,0, 30%);
-    font-size: 6em;
+    font-size: 5em;
     color: #E1D7D1;
     text-align: center;
     flex: 1;
@@ -15,12 +15,35 @@ body {
 }
 
 .header {
-    background-image: url("resources/pexels-nataliya-vaitkevich-8468159.jpg");
+    background-image: url("resources/homepage_background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
     align-items: center;
     justify-content: center;
     height: 42em;
+}
+
+/*todo: fix white strip under navbar*/
+.navbar {
+    background-color: #051B23;
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+}
+
+/*taking all elements from navbar; kind of selector - combinator*/
+.navbar > * {
+    color: #E1D7D1;
+    /*how to ged rid of underline from anchor*/
+    text-decoration: none;
+    font-size: 1.5em;
+    padding-bottom: 1em;
+    padding-top: 1em;
+}
+
+/*styling hover action of all elements inside of navbar*/
+.navbar > *:hover  {
+    color: white;
 }
 
