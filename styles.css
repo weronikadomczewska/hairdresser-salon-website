@@ -1,22 +1,26 @@
 body {
-    background-image: url("resources/pexels-cottonbro-3992874.jpg");
-    opacity: 0.8;
-    background-color: #E1D7D1;
-    background-repeat: no-repeat;
-    background-size: cover;
+    margin: 0;
 }
 
-h1 {
+.header_text {
     font-family: "Rockwell", serif;
+    background-color: rgba(0,0,0, 30%);
     font-size: 6em;
     color: #E1D7D1;
     text-align: center;
-    padding: 100px 100px 100px 100px;
+    flex: 1;
+    backdrop-filter: blur(10px);
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
 }
 
-div.page_header {
+.header {
+    background-image: url("resources/pexels-nataliya-vaitkevich-8468159.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     align-items: center;
-    justify-content: center
+    justify-content: center;
+    height: 42em;
 }
 
