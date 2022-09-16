@@ -21,7 +21,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 42em;
+    height: 41em;
 }
 
 /*todo: fix white strip under navbar*/
@@ -52,10 +52,9 @@ body {
     background-color: rgba(0,0,0, 30%);
     backdrop-filter: blur(10px);
     font-family: "Rockwell", serif;
-    font-size: 1.25em;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    font-size: 0.5em;
+    text-align: center;
+    position: center;
 }
 
 .booking_button:hover {
