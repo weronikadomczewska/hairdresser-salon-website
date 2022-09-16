@@ -47,3 +47,18 @@ body {
     color: white;
 }
 
+.booking_button {
+    color: #E1D7D1;
+    background-color: rgba(0,0,0, 30%);
+    backdrop-filter: blur(10px);
+    font-family: "Rockwell", serif;
+    font-size: 1.25em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.booking_button:hover {
+    color: white
+}
+
