@@ -1,26 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 body {
     margin: 0;
-    font-family: "Calibri Light", serif;
+    font-family: "Montserrat", serif;
 }
 
 * {
     box-sizing: border-box;
 }
+a {
+    text-decoration: none;
+}
 
 p, h1, h2, h3, h4, h5, h6 {
     margin: 0;
-}
-
-.header_text {
-    background-color: rgba(0,0,0, 30%);
-    font-size: 5em;
-    font-style: italic;
-    color: #E1D7D1;
-    text-align: center;
-    flex: 1;
-    backdrop-filter: blur(10px);
-    padding-top: 0.5em;
-    padding-bottom: 0.5em;
 }
 
 .header {
@@ -28,10 +21,23 @@ p, h1, h2, h3, h4, h5, h6 {
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
-    align-items: center;
+    align-items: stretch;
     justify-content: center;
     height: 41em;
-    white-space: pre;
+    flex-direction: column;
+}
+
+.header_text {
+    font-size: 5em;
+    color: #E1D7D1;
+    text-align: center;
+}
+
+.header_text_container{
+    background-color: rgba(0,0,0, 30%);
+    backdrop-filter: blur(10px);
+    padding-top: 2em;
+    padding-bottom: 2em;
 }
 
 /*todo: fix white strip under navbar*/
@@ -39,14 +45,13 @@ p, h1, h2, h3, h4, h5, h6 {
     background-color: #051B23;
     display: flex;
     justify-content: center;
+    border-top: #E1D7D1 solid 3px;
     gap: 1em;
 }
 
 /*taking all elements from navbar; kind of selector - combinator*/
 .navbar > * {
     color: #E1D7D1;
-    /*how to ged rid of underline from anchor*/
-    text-decoration: none;
     font-size: 1.5em;
     padding-bottom: 1em;
     padding-top: 1em;
@@ -61,14 +66,21 @@ p, h1, h2, h3, h4, h5, h6 {
     color: #E1D7D1;
     background-color: rgba(0,0,0, 30%);
     backdrop-filter: blur(10px);
-    font-family: "Rockwell", serif;
-    font-size: 0.5em;
+    font-size: 1.5em;
     text-align: center;
     position: center;
+    align-self: center;
+    border: #E1D7D1 solid 3px;
+    padding-top: 0.25em;
+    padding-bottom: 0.25em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    margin-top: 1em;
 }
 
 .booking_button:hover {
-    color: white
+    color: white;
+    border: white solid 3px;
 }
 
 
