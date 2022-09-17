@@ -12,18 +12,42 @@
             <p class="header_text">Hairdresser's services</p>
         </div>
 <!--        use <a> instead of button-->
-<!--        todo: insert link to subsite with booking system-->
         <a class="booking_button" href="#">
             BOOK AN APPOINTMENT
         </a>
     </div>
 
-<!--    todo: insert links to subpages-->
+<!--    todo: insert ids to subpages-->
     <nav class="navbar">
-        <a href="#">SERVICES</a>
+        <a href="#pricing_grid">PRICING</a>
         <a href="#">CONTACT</a>
         <a href="#">HOME</a>
     </nav>
+
+<!--    services section-->
+    <div class="content_container">
+        <div class="pricing_header">
+            <p class="pricing_header_text">PRICING</p>
+        </div>
+        <div class="pricing_grid" id="pricing_grid">
+            <div class="pricing_grid-item">SERVICE</div>
+            <div class="pricing_grid-item">PRICE [PLN]</div>
+            <div class="pricing_grid-item">3</div>
+            <div class="pricing_grid-item">4</div>
+            <div class="pricing_grid-item">5</div>
+            <div class="pricing_grid-item">6</div>
+            <div class="pricing_grid-item">7</div>
+            <div class="pricing_grid-item">8</div>
+            <div class="pricing_grid-item">9</div>
+        </div>
+
+    </div>
+
+<!--    fixes issue - navbar hides grid elements-->
+    <div class="navbar_padding">
+
+    </div>
+
 
 </body>
 </html>

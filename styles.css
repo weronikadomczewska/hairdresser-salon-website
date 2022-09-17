@@ -3,6 +3,7 @@
 body {
     margin: 0;
     font-family: "Montserrat", serif;
+    color: #E1D7D1;
 }
 
 * {
@@ -23,38 +24,42 @@ p, h1, h2, h3, h4, h5, h6 {
     display: flex;
     align-items: stretch;
     justify-content: center;
-    height: 41em;
+    height: 41rem;
     flex-direction: column;
 }
 
 .header_text {
-    font-size: 5em;
-    color: #E1D7D1;
+    font-size: 5rem;
+    /*color: #E1D7D1;*/
     text-align: center;
 }
 
 .header_text_container{
     background-color: rgba(0,0,0, 30%);
     backdrop-filter: blur(10px);
-    padding-top: 2em;
-    padding-bottom: 2em;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 
-/*todo: fix white strip under navbar*/
 .navbar {
     background-color: #051B23;
     display: flex;
     justify-content: center;
     border-top: #E1D7D1 solid 3px;
-    gap: 1em;
+    gap: 1rem;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 100;
 }
 
 /*taking all elements from navbar; kind of selector - combinator*/
 .navbar > * {
     color: #E1D7D1;
-    font-size: 1.5em;
-    padding-bottom: 1em;
-    padding-top: 1em;
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
 }
 
 /*styling hover action of all elements inside of navbar*/
@@ -66,22 +71,58 @@ p, h1, h2, h3, h4, h5, h6 {
     color: #E1D7D1;
     background-color: rgba(0,0,0, 30%);
     backdrop-filter: blur(10px);
-    font-size: 1.5em;
+    font-size: 1.5rem;
     text-align: center;
     position: center;
     align-self: center;
     border: #E1D7D1 solid 3px;
-    padding-top: 0.25em;
-    padding-bottom: 0.25em;
-    padding-left: 0.5em;
-    padding-right: 0.5em;
-    margin-top: 1em;
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    margin-top: 1rem;
 }
 
 .booking_button:hover {
-    color: white;
+    /*color: white;*/
     border: white solid 3px;
 }
 
+.navbar_padding{
+    height: calc(3.5rem + 5px);
+}
+
+.content_container{
+
+    background-color: #051B23;
+    padding-right: 5%;
+    padding-left: 5%;
+}
+
+.pricing_header{
+    background-color: #051B23;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.pricing_header_text{
+    font-size: 1.5rem;
+    text-align: center;
+
+}
+
+.pricing_grid{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color: #051B23;
+
+}
+
+.pricing_grid-item{
+    color: #E1D7D1;
+    border: 1px solid #E1D7D1;
+    font-size: 1.25rem;
+    text-align: center;
+}
 
 
