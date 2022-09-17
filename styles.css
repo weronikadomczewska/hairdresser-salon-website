@@ -1,11 +1,20 @@
 body {
     margin: 0;
-    font-family: "Rockwell", serif;
+    font-family: "Calibri Light", serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+    margin: 0;
 }
 
 .header_text {
     background-color: rgba(0,0,0, 30%);
     font-size: 5em;
+    font-style: italic;
     color: #E1D7D1;
     text-align: center;
     flex: 1;
@@ -22,6 +31,7 @@ body {
     align-items: center;
     justify-content: center;
     height: 41em;
+    white-space: pre;
 }
 
 /*todo: fix white strip under navbar*/
@@ -60,4 +70,6 @@ body {
 .booking_button:hover {
     color: white
 }
+
+
 
