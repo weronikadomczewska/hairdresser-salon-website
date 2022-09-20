@@ -30,7 +30,6 @@ p, h1, h2, h3, h4, h5, h6 {
 
 .header_text {
     font-size: 5rem;
-    /*color: #E1D7D1;*/
     text-align: center;
 }
 
@@ -148,6 +147,18 @@ p, h1, h2, h3, h4, h5, h6 {
     allowfullscreen: "";
     loading: "lazy";
     referrerpolicy: "no-referrer-when-downgrade"
+
+}
+
+.map_container{
+    display: flex;
+    justify-content: right;
+}
+
+.contact_details_container{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
 
 }
 
