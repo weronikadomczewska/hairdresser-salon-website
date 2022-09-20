@@ -76,15 +76,15 @@ p, h1, h2, h3, h4, h5, h6 {
     position: center;
     align-self: center;
     border: #E1D7D1 solid 3px;
-    padding-top: 0.25rem;
-    padding-bottom: 0.25rem;
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
+    padding: 0.25rem 0.5rem;
+    /*padding-top: 0.25rem;*/
+    /*padding-bottom: 0.25rem;*/
+    /*padding-left: 0.5rem;*/
+    /*padding-right: 0.5rem;*/
     margin-top: 1rem;
 }
 
 .booking_button:hover {
-    /*color: white;*/
     border: white solid 3px;
 }
 
@@ -92,8 +92,7 @@ p, h1, h2, h3, h4, h5, h6 {
     height: calc(3.5rem + 5px);
 }
 
-.content_container{
-
+.pricing_content_container{
     background-color: #051B23;
     padding-right: 5%;
     padding-left: 5%;
@@ -124,5 +123,25 @@ p, h1, h2, h3, h4, h5, h6 {
     font-size: 1.25rem;
     text-align: center;
 }
+
+.contact_content_container{
+    background-color: #051B23;
+    padding-right: 5%;
+    padding-left: 5%;
+}
+
+.contact_header{
+    background-color: #051B23;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.contact_header_text{
+    font-size: 1.5rem;
+    text-align: center;
+
+}
+
+
 
 

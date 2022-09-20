@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="header">
+    <div class="header" id="header_text_container">
         <div class="header_text_container">
             <p class="header_text">Silver scissors</p>
             <p class="header_text">Hairdresser's services</p>
@@ -20,18 +20,18 @@
 <!--    todo: insert ids to subpages-->
     <nav class="navbar">
         <a href="#pricing_grid">PRICING</a>
-        <a href="#">CONTACT</a>
-        <a href="#">HOME</a>
+        <a href="#contact_header_text">CONTACT</a>
+        <a href="#header_text_container">HOME</a>
     </nav>
 
 <!--    services section-->
-    <div class="content_container">
+    <div class="pricing_content_container">
         <div class="pricing_header">
             <p class="pricing_header_text">PRICING</p>
         </div>
         <div class="pricing_grid" id="pricing_grid">
             <div class="pricing_grid-item">SERVICE</div>
-            <div class="pricing_grid-item">PRICE [PLN]</div>
+            <div class="pricing_grid-item">PRICE</div>
             <div class="pricing_grid-item">3</div>
             <div class="pricing_grid-item">4</div>
             <div class="pricing_grid-item">5</div>
@@ -47,6 +47,13 @@
     <div class="navbar_padding">
 
     </div>
+
+<!--    contact section-->
+<div class="contact_content_container">
+    <div class="contact_header">
+        <p class="contact_header_text" id="contact_header_text">CONTACT</p>
+    </div>
+</div>
 
 
 </body>
