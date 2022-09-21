@@ -149,6 +149,7 @@ p, h1, h2, h3, h4, h5, h6 {
     border: 0;
     width: 100%;
     height: 225px;
+    aspect-ratio: 3 / 2
     allowfullscreen: "";
     loading: "lazy";
     referrerpolicy: "no-referrer-when-downgrade"
