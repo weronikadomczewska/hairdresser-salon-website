@@ -171,21 +171,46 @@ p, h1, h2, h3, h4, h5, h6 {
 .pricing_tab{
     display: flex;
     justify-content: center;
+    overflow: hidden;
 
 }
 
 .pricing_tab_button{
     background-color: #051B23;
     color: #E1D7D1;
-    border: none;
+    border-color: #E1D7D1;
     padding: 1rem;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     text-align: center;
 }
 
 .pricing_tab_button:hover{
     color: white;
+    border-color: white;
+}
 
+.pricing_tab_button:active{
+    background-color: rgba(0,0,0, 30%);
+    backdrop-filter: blur(10px);
+    color: white;
+    border-color: white;
+}
+
+.tab_text{
+    color: #E1D7D1;
+}
+
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+    animation: fadeEffect 1s;
+}
+
+@keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
 }
 
 

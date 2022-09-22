@@ -31,9 +31,21 @@
         </div>
 <!--        <p>there will be pricing using tabs</p>-->
         <div class="pricing_tab">
-            <button class="pricing_tab_button" onclick="openCity(event, 'HAIRCUT')">HAIRCUT</button>
-            <button class="pricing_tab_button" onclick="openCity(event, 'HAIRCARE')">HAIRCARE</button>
-            <button class="pricing_tab_button" onclick="openCity(event, 'STYLING')">STYLING</button>
+            <button class="pricing_tab_button" onclick="openTab(event, 'HAIRCUT')">HAIRCUT</button>
+            <button class="pricing_tab_button" onclick="openTab(event, 'HAIRCARE')">HAIRCARE</button>
+            <button class="pricing_tab_button" onclick="openTab(event, 'STYLING')">STYLING</button>
+        </div>
+
+        <div id="Haircut" class="tabcontent">
+            <p class="tab_text">London is the capital city of England.</p>
+        </div>
+
+        <div id="Haircare" class="tabcontent">
+            <p class="tab_text">Paris is the capital of France.</p>
+        </div>
+
+        <div id="Styling" class="tabcontent">
+            <p class="tab_text">Tokyo is the capital of Japan.</p>
         </div>
 <!--        todo: when you learn some js, replace this with dynamic tabs-->
 <!--        <div class="pricing_grid">-->
@@ -60,7 +72,6 @@
 <!--            <div class="pricing_grid-item">3</div>-->
 <!--            <div class="pricing_grid-item">3</div>-->
 <!--        </div>-->
-
     </div>
 
 <!--    fixes issue - navbar hides grid elements-->
