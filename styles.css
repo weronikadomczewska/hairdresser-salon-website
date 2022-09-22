@@ -106,7 +106,6 @@ p, h1, h2, h3, h4, h5, h6 {
 .pricing_header_text{
     font-size: 1.5rem;
     text-align: center;
-
 }
 
 .pricing_grid{
@@ -169,12 +168,25 @@ p, h1, h2, h3, h4, h5, h6 {
     padding-bottom: 1rem;
 }
 
-/*.contact_body{*/
-/*    display: flex;*/
-/*    justify-content: space-between;*/
-/*    text-align: center;*/
-/*}*/
+.pricing_tab{
+    display: flex;
+    justify-content: center;
 
+}
+
+.pricing_tab_button{
+    background-color: #051B23;
+    color: #E1D7D1;
+    border: none;
+    padding: 1rem;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.pricing_tab_button:hover{
+    color: white;
+
+}
 
 
 
