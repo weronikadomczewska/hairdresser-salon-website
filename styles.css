@@ -76,10 +76,6 @@ p, h1, h2, h3, h4, h5, h6 {
     align-self: center;
     border: #E1D7D1 solid 3px;
     padding: 0.25rem 0.5rem;
-    /*padding-top: 0.25rem;*/
-    /*padding-bottom: 0.25rem;*/
-    /*padding-left: 0.5rem;*/
-    /*padding-right: 0.5rem;*/
     margin-top: 1rem;
 }
 
@@ -152,13 +148,6 @@ p, h1, h2, h3, h4, h5, h6 {
     loading: "lazy";
     referrerpolicy: "no-referrer-when-downgrade"
 }
-
-/*.map_container{*/
-/*    padding-right: 5%;*/
-/*    padding-left: 5%;*/
-/*    !*display: flex;*!*/
-/*    !*justify-content: right;*!*/
-/*}*/
 
 .contact_details_container{
     display: flex;

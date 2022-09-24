@@ -12,29 +12,23 @@
             <p class="header_text">Silver scissors</p>
             <p class="header_text">Hair salon</p>
         </div>
-<!--        use <a> instead of button-->
         <a class="booking_button" href="#">
             BOOK AN APPOINTMENT
         </a>
     </div>
-
-<!--    todo: insert ids to subpages-->
     <nav class="navbar">
         <a href="#pricing_header_text">PRICING</a>
         <a href="#contact_header_text">CONTACT</a>
         <a href="#header_text_container">HOME</a>
     </nav>
-
-<!--    services section-->
     <div class="pricing_content_container">
         <div class="pricing_header">
             <p class="pricing_header_text" id="pricing_header_text">PRICING</p>
         </div>
-<!--        <p>there will be pricing using tabs</p>-->
         <div class="pricing_tab">
-            <button class="pricing_tab_button" onclick="openTab(event, 'Haircut')">HAIRCUT</button>
-            <button class="pricing_tab_button" onclick="openTab(event, 'Haircare')">HAIRCARE</button>
-            <button class="pricing_tab_button" onclick="openTab(event, 'Styling')">STYLING</button>
+            <a class="pricing_tab_button" onclick="openTab(event, 'Haircut')">HAIRCUT</a>
+            <a class="pricing_tab_button" onclick="openTab(event, 'Haircare')">HAIRCARE</a>
+            <a class="pricing_tab_button" onclick="openTab(event, 'Styling')">STYLING</a>
         </div>
 
         <div id="Haircut" class="tabcontent">
@@ -48,7 +42,6 @@
         <div id="Styling" class="tabcontent">
             <p class="tab_text">Tokyo is the capital of Japan.</p>
         </div>
-<!--        todo: when you learn some js, replace this with dynamic tabs-->
 <!--        <div class="pricing_grid">-->
 <!--            <div class="pricing_grid-item">SERVICE</div>-->
 <!--            <div class="pricing_grid-item">PRICE</div>-->
@@ -74,16 +67,10 @@
 <!--            <div class="pricing_grid-item">3</div>-->
 <!--        </div>-->
     </div>
-
-<!--    fixes issue - navbar hides grid elements-->
-<!--    <div class="navbar_padding"></div>-->
-
-<!--    contact section-->
     <div class="contact_content_container">
         <div class="contact_header">
             <p class="contact_header_text" id="contact_header_text">CONTACT</p>
         </div>
-<!--        <div class="contact_body">-->
         <div class="contact_details_container">
             <div>e-mail: mail@example.com</div>
             <div>phone number: 111 222 333</div>
@@ -93,13 +80,9 @@
             <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1695.5388034650302!2d16.97170660748877!3d51.126614139650975!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470fea734a149b7b%3A0x73fbdbeeb5b1d3a5!2sZak%C5%82ad%20fryzjerski!5e0!3m2!1spl!2spl!4v1663703404776!5m2!1spl!2spl">
             </iframe>
         </div>
-
-<!--        </div>-->
     </div>
 
     <div class="navbar_padding"></div>
-
-
 
 </body>
 </html>
