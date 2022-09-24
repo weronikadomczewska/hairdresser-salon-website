@@ -126,7 +126,7 @@ p, h1, h2, h3, h4, h5, h6 {
     padding-left: 5%;
     display: flex;
     flex-direction: column;
-    align-items: stretch;
+    align-items: center;
 }
 
 .contact_header{
@@ -142,7 +142,7 @@ p, h1, h2, h3, h4, h5, h6 {
 
 .map{
     border: 0;
-    width: 100%;
+    width: 45vw;
     aspect-ratio: 3 / 2;
     allowfullscreen: "";
     loading: "lazy";
@@ -171,14 +171,24 @@ p, h1, h2, h3, h4, h5, h6 {
     padding: 1rem;
     font-size: 1.25rem;
     text-align: center;
+    cursor: pointer;
 }
 
 .pricing_tab_button:hover{
     color: white;
     border-color: white;
+    background-color: rgba(0,0,0, 30%);
+    backdrop-filter: blur(10px);
 }
 
 .pricing_tab_button:active{
+    background-color: rgba(0,0,0, 30%);
+    backdrop-filter: blur(10px);
+    color: white;
+    border-color: white;
+}
+
+.active{
     background-color: rgba(0,0,0, 30%);
     backdrop-filter: blur(10px);
     color: white;
