@@ -1,23 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-body {
+body{
     margin: 0;
     font-family: "Montserrat", serif;
     color: #E1D7D1;
 }
 
-* {
+*{
     box-sizing: border-box;
 }
-a {
+a{
     text-decoration: none;
 }
 
-p, h1, h2, h3, h4, h5, h6 {
+p, h1, h2, h3, h4, h5, h6{
     margin: 0;
 }
 
-.header {
+.header{
     background-image: url("resources/homepage_background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -28,7 +28,7 @@ p, h1, h2, h3, h4, h5, h6 {
     flex-direction: column;
 }
 
-.header_text {
+.header_text{
     font-size: 5rem;
     text-align: center;
 }
@@ -40,7 +40,7 @@ p, h1, h2, h3, h4, h5, h6 {
     padding-bottom: 2rem;
 }
 
-.navbar {
+.navbar{
     background-color: #051B23;
     display: flex;
     justify-content: center;
@@ -54,7 +54,7 @@ p, h1, h2, h3, h4, h5, h6 {
 }
 
 /*taking all elements from navbar; kind of selector - combinator*/
-.navbar > * {
+.navbar > *{
     color: #E1D7D1;
     font-size: 1.5rem;
     padding-bottom: 1rem;
@@ -62,11 +62,11 @@ p, h1, h2, h3, h4, h5, h6 {
 }
 
 /*styling hover action of all elements inside of navbar*/
-.navbar > *:hover  {
+.navbar > *:hover {
     color: white;
 }
 
-.booking_button {
+.booking_button{
     color: #E1D7D1;
     background-color: rgba(0,0,0, 30%);
     backdrop-filter: blur(10px);
@@ -79,7 +79,7 @@ p, h1, h2, h3, h4, h5, h6 {
     margin-top: 1rem;
 }
 
-.booking_button:hover {
+.booking_button:hover{
     border: white solid 3px;
 }
 
@@ -142,7 +142,7 @@ p, h1, h2, h3, h4, h5, h6 {
 
 .map{
     border: 0;
-    width: 45vw;
+    width: 40vw;
     aspect-ratio: 3 / 2;
     allowfullscreen: "";
     loading: "lazy";
@@ -199,15 +199,13 @@ p, h1, h2, h3, h4, h5, h6 {
     color: #E1D7D1;
 }
 
-.tabcontent {
+.tabcontent{
     display: none;
     padding: 6px 12px;
-    border: 1px solid #ccc;
-    border-top: none;
     animation: fadeEffect 1s;
 }
 
-@keyframes fadeEffect {
+@keyframes fadeEffect{
     from {opacity: 0;}
     to {opacity: 1;}
 }
