@@ -194,5 +194,23 @@ p, h1, h2, h3, h4, h5, h6{
     to {opacity: 1;}
 }
 
+.pricing_grid_container{
+    display: grid;
+    border: none;
+    grid-template-columns: 50% 50%;
+    background-color: #051B23;
+}
+
+.pricing_grid_item{
+    display: flex;
+    justify-content: center;
+    color: #E1D7D1;
+    /*border: 1px solid #E1D7D1;*/
+    font-size: 1.25rem;
+    /*text-align: center;*/
+    padding: 0.5rem;
+}
+
+
 
 
