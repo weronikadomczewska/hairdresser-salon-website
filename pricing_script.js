@@ -14,3 +14,5 @@ function openTab(event, service) {
     document.getElementById(service).style.display = "block";
     event.currentTarget.className += " active";
 }
+
+document.getElementById("haircut_button").click();
