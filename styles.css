@@ -104,22 +104,6 @@ p, h1, h2, h3, h4, h5, h6{
     text-align: center;
 }
 
-.pricing_grid{
-    display: grid;
-    /*grid-template-columns: auto auto;*/
-    grid-template-columns: 50% 50%;
-    background-color: #051B23;
-
-}
-
-.pricing_grid-item{
-    color: #E1D7D1;
-    border: 1px solid #E1D7D1;
-    font-size: 1.25rem;
-    text-align: center;
-    padding: 0.5rem;
-}
-
 .contact_content_container{
     background-color: #051B23;
     padding-right: 5%;
