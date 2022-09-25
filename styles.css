@@ -17,6 +17,10 @@ p, h1, h2, h3, h4, h5, h6{
     margin: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .header{
     background-image: url("resources/homepage_background.jpg");
     background-repeat: no-repeat;
@@ -145,7 +149,6 @@ p, h1, h2, h3, h4, h5, h6{
     display: flex;
     justify-content: center;
     overflow: hidden;
-
 }
 
 .pricing_tab_button{
@@ -209,6 +212,21 @@ p, h1, h2, h3, h4, h5, h6{
     font-size: 1.25rem;
     /*text-align: center;*/
     padding: 0.5rem;
+}
+
+.booking_form_container{
+    background-color: #051B23;
+    padding-right: 5%;
+    padding-left: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.booking_form_header_text{
+
+
+
 }
 
 
