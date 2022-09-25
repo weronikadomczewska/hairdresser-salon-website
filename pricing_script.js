@@ -1,15 +1,19 @@
 function openTab(event, service) {
-    let i, tabcontent, pricing_tab_button;
-
-    tabcontent = document.getElementsByClassName("tabcontent");
+    const tabcontent = document.getElementsByClassName("tabcontent");
+    let i;
     for (i = 0; i < tabcontent.length; i++) {
         tabcontent[i].style.display = "none";
     }
 
-    pricing_tab_button = document.getElementsByClassName("pricing_tab_button");
-    for (i = 0; i < pricing_tab_button.length; i++) {
-        pricing_tab_button[i].className = pricing_tab_button[i].className.replace(" active", "");
+    const pricing_tab_button = document.getElementsByClassName("pricing_tab_button");
+    for (const pricing_tab_button_elem of pricing_tab_button){
+        pricing_tab_button_elem.classList.remove("active");
     }
+
+    for (const tabcontent_elem of tabcontent){
+        tabcontent_elem.style.display = "none";
+    }
+
 
     document.getElementById(service).style.display = "block";
     event.currentTarget.className += " active";
