@@ -81,6 +81,7 @@ html {
     border: #E1D7D1 solid 3px;
     padding: 0.25rem 0.5rem;
     margin-top: 1rem;
+    cursor: pointer;
 }
 
 .booking_button:hover{
@@ -97,17 +98,6 @@ html {
     padding-left: 5%;
 }
 
-.pricing_header{
-    background-color: #051B23;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-}
-
-.pricing_header_text{
-    font-size: 1.5rem;
-    text-align: center;
-}
-
 .contact_content_container{
     background-color: #051B23;
     padding-right: 5%;
@@ -117,13 +107,13 @@ html {
     align-items: center;
 }
 
-.contact_header{
+.section_header{
     background-color: #051B23;
     padding-top: 1rem;
     padding-bottom: 1rem;
 }
 
-.contact_header_text{
+.section_header_text{
     font-size: 1.5rem;
     text-align: center;
 }
@@ -208,9 +198,7 @@ html {
     display: flex;
     justify-content: center;
     color: #E1D7D1;
-    /*border: 1px solid #E1D7D1;*/
     font-size: 1.25rem;
-    /*text-align: center;*/
     padding: 0.5rem;
 }
 
@@ -221,12 +209,6 @@ html {
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-
-.booking_form_header_text{
-
-
-
 }
 
 
