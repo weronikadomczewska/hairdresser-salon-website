@@ -88,10 +88,6 @@ html {
     border: white solid 3px;
 }
 
-.navbar_padding{
-    height: calc(3.5rem + 5px);
-}
-
 .pricing_content_container{
     background-color: #051B23;
     padding-right: 5%;
