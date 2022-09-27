@@ -207,6 +207,10 @@ html {
     align-items: center;
 }
 
+.navbar_padding{
+    height: calc(3.5rem + 5px);
+}
+
 
 
 
