@@ -1,5 +1,5 @@
 function openTab(event, service) {
-    const tabcontent = document.getElementsByClassName("tabcontent");
+    const tabcontent = document.getElementsByClassName("table_content");
     let i;
     for (i = 0; i < tabcontent.length; i++) {
         tabcontent[i].style.display = "none";
