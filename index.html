@@ -12,7 +12,7 @@
             <p class="header_text">Silver scissors</p>
             <p class="header_text">Hair salon</p>
         </div>
-        <a class="booking_button" href="#">
+        <a class="booking_button" href="#section_header_text">
             BOOK AN APPOINTMENT
         </a>
     </div>
@@ -69,8 +69,21 @@
     </div>
     <div class="booking_form_container">
         <div class="section_header">
-            <p class="section_header_text">BOOK AN APPOINTMENT</p>
+            <p class="section_header_text" id="section_header_text">BOOK AN APPOINTMENT</p>
+            <p>(here should be placed a calendar widget)</p>
         </div>
+        <form action="#">
+            <div class="form_container">
+                <label for="email" class="form_text">e-mail</label>
+                <input type="text" placeholder="Enter Email" name="email" id="email" required>
+                <label for="psw">password</label>
+                <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
+                <label for="psw-repeat">repeat password</label>
+                <input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required>
+                <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
+                <button type="submit" class="form_book_button">BOOK</button>
+            </div>
+        </form>
     </div>
 
     <div class="navbar_padding"></div>
