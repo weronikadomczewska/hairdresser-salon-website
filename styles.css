@@ -208,12 +208,9 @@ html {
 }
 
 .form_elements_container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    alignment: left;
     font-size: 1.25rem;
     padding-bottom: 1rem;
-    column-count: 2;
 }
 
 input[type=text] {
@@ -224,15 +221,6 @@ input[type=text] {
     color: #E1D7D1;
     background-color: #051B23;
     border: none;
-}
-
-input[type=number] {
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    box-sizing: border-box;
-    color: #E1D7D1;
-    background-color: #051B23;
 }
 
 .form_book_button{
@@ -253,6 +241,8 @@ input[type=number] {
     border: white solid 3px;
     color: white;
 }
+
+
 
 .navbar_padding{
     height: calc(3.5rem + 5px);
