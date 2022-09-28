@@ -223,6 +223,32 @@ input[type=text] {
     border: none;
 }
 
+input[type=email] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    color: #E1D7D1;
+    background-color: #051B23;
+    border: none;
+}
+
+input[type=tel] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    color: #E1D7D1;
+    background-color: #051B23;
+    border: none;
+
+}
+
+.input_box{
+    border-bottom: #E1D7D1 solid 1px;
+}
+
+
 .form_book_button{
     color: #E1D7D1;
     background-color: rgba(0,0,0, 30%);
