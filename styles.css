@@ -198,6 +198,17 @@ html {
     to {opacity: 1;}
 }
 
+.select_date{
+    font-family: inherit;
+    color: #E1D7D1;
+    background-color: rgba(0,0,0, 30%);
+    backdrop-filter: blur(10px);
+    font-size: 1.25rem;
+    background-color: #051B23;
+    cursor: pointer;
+
+}
+
 .booking_form_container{
     background-color: #051B23;
     padding-right: 5%;
@@ -277,8 +288,6 @@ input[type=tel] {
     border: white solid 3px;
     color: white;
 }
-
-
 
 .navbar_padding{
     height: calc(3.5rem + 5px);
