@@ -226,6 +226,15 @@ html {
     transition: border-color 0.2s;
 }
 
+input[type=datetime-local] {
+    padding: 6px 10px;
+    margin: 8px 0;
+    color: #051B23;
+    background-color: #E1D7D1;
+    border: none;
+    pattern:"[0-9]{4}-[0-9]{2}-[0-9]{2}T[0-9]{2}:[0-9]{2}";
+}
+
 input[type=text] {
     width: 100%;
     padding: 12px 20px;
@@ -281,7 +290,3 @@ input[type=tel] {
 .navbar_padding{
     height: calc(3.5rem + 5px);
 }
-
-
-
-
