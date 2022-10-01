@@ -198,17 +198,6 @@ html {
     to {opacity: 1;}
 }
 
-.select_date{
-    font-family: inherit;
-    color: #E1D7D1;
-    background-color: rgba(0,0,0, 30%);
-    backdrop-filter: blur(10px);
-    font-size: 1.25rem;
-    background-color: #051B23;
-    cursor: pointer;
-
-}
-
 .booking_form_container{
     background-color: #051B23;
     padding-right: 5%;
@@ -220,7 +209,7 @@ html {
 
 .form_elements_container{
     alignment: left;
-    font-size: 1.25rem;
+    /*font-size: 1.25rem;*/
     padding-bottom: 1rem;
 }
 
@@ -230,7 +219,7 @@ html {
     border: 0;
     border-bottom: 2px solid #E1D7D1;
     outline: 0;
-    font-size: 1.25rem;
+    /*font-size: 1.25rem;*/
     color: white;
     padding: 7px 0;
     background: transparent;

@@ -87,11 +87,10 @@
             <p class="section_header_text" id="section_header_text">BOOK AN APPOINTMENT</p>
         </div>
         <form action="#">
-            <select class="select_date">
-                <option selected>Choose date and hour</option>
-                <option>Opcja 2</option>
-                <option>Opcja 3</option>
-            </select>
+            <label for="meeting-time">Choose a time for your appointment: </label>
+            <input type="datetime-local" id="meeting-time"
+                   name="meeting-time" value="2022-10-03T00:00"
+                   min="2022-10-03T00:00" max="2023-01-01T00:00">
             <div class="form_elements_container">
                 <input class="input_box" type="text" placeholder="Enter your name" name="email" id="name" required>
                 <input class="input_box" type="text" placeholder="Enter your surname" name="surname" id="surname" required>
